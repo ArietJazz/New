@@ -5,8 +5,8 @@ import { BaseLayout } from '../layouts/baseLayout';
 import { Collections } from './collections';
 import { CollectionDetail } from './detail';
 import { Shoes } from './shoes';
-import { PageOfProduct } from './PageOfProduct'; // Import PageOfProduct component
-import { RoutesUrls } from '../constants/routesUrls'; // Assuming you have a file for route constants
+import { PageOfProduct } from '../components/PageOfProduct/PageOfProduct'
+import {RoutesUrls} from "../constans/routesUrls";
 
 const Routers = () => {
     return (
@@ -17,7 +17,7 @@ const Routers = () => {
                 <Route path="/catalog/:gender" element={<h2>gender</h2>} />
                 <Route path={RoutesUrls.collection.path} element={<Collections />} />
                 <Route path={`${RoutesUrls.collection.path}/:slug`} element={<CollectionDetail />} />
-                <Route path="/products/:productSlug" element={<PageOfProduct />} />
+                <Route path="/:productSlug" element={<PageOfProduct />} />
                 <Route path="/cart" element={<h2>cart</h2>} />
                 <Route path="/payment" element={<h2>payment</h2>} />
                 <Route path={RoutesUrls.shoes.path} element={<Shoes />} />
