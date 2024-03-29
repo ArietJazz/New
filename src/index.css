@@ -10,10 +10,8 @@
 }
 
 
-
-
 .gender__men {
-    background: url("../src/assets/images/gender__men.png");
+    background: url("../src/assets/images/gender__men.png") center/ cover no-repeat;
     width: 960px;
     height: 805px;
 }
@@ -38,7 +36,7 @@
 
 
 .gender__woman {
-    background: url("../src/assets/images/gender__woman.png");
+    background: url("../src/assets/images/gender__woman.png") center/ cover no-repeat;
     width: 960px;
     height: 805px;
     position: sticky;
@@ -73,15 +71,10 @@
     margin-bottom: 75px;
 }
 
-.brand-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 
 .brand-image {
     width: 210px;
+    background: teal;
     height: 117.78px;
 }
 
@@ -609,8 +602,8 @@
     border: 1px solid rgb(217, 217, 217);
     background: rgb(255, 255, 255);
     color: rgb(217, 217, 217);
-    width: 48px;
-    height: 24px;
+    width: 100px;
+    height: 41px;
 }
 
 .details-btn--active{
@@ -640,9 +633,4 @@
     line-height: 120%;
     text-decoration-line: line-through;
     margin-right: 118px;
-}
-
-.card-image{
-    width: 420px;
-    height: 534px;
 }
