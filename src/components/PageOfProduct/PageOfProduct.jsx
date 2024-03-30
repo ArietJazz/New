@@ -3,11 +3,6 @@ import 'swiper/css/thumbs';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React, {useCallback, useRef, useState} from "react";
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
-import {CollectionDetailsCard} from "../collectionDetailsCard";
-import DetailMen from "../../assets/images/details-men.png"
-import detailOne from "../../assets/images/details-men-one.png"
-import detailTwo from "../../assets/images/details-men-two.png"
-import detailThree from "../../assets/images/details-men-three.png"
 import collectionMen from "../../assets/images/collection-three.png"
 import collectionMenOne from "../../assets/images/collection-one.png"
 import collectionMenTwo from "../../assets/images/collection-two.png"
@@ -80,7 +75,7 @@ export function PageOfProduct () {
                             <img style={{width: '620px', height: "816px"}} src={collectionMenOne}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={<Bruno></Bruno>}/>
+                            <img src={Bruno}/>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img style={{width: '620px', height: "816px"}} src={collectionMen}/>
