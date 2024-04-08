@@ -548,7 +548,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -602,8 +601,22 @@
     border: 1px solid rgb(217, 217, 217);
     background: rgb(255, 255, 255);
     color: rgb(217, 217, 217);
+    width: 48px;
+    height: 24px;
+}
+.pageProduct-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 217, 217);
+    background: rgb(255, 255, 255);
+    color: rgb(217, 217, 217);
     width: 100px;
     height: 41px;
+}
+.category-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 217, 217);
+    background: rgb(255, 255, 255);
+    color: rgb(217, 217, 217);
 }
 
 .details-btn--active{
@@ -633,4 +646,64 @@
     line-height: 120%;
     text-decoration-line: line-through;
     margin-right: 118px;
+}
+.brand-image{
+    width: 195px;
+    height: 183px;
+}
+
+.category{
+    padding-bottom: 300px;
+}
+.products-container {
+    display: flex;
+    align-items: flex-end;
+
+}
+.products-card-one{
+    position: absolute;
+    top: 33%;
+    left: 27%;
+
+}
+.products-card-two{
+    position: absolute;
+    top: 31.29%;
+    left: 52%;
+
+}
+.products-card-three{
+    position: absolute;
+    top: 33%;
+    left: 77%;
+}
+.products-card-four{
+    position: absolute;
+    top: 49%;
+    left: 27%;
+}
+.products-card-five{
+    position: absolute;
+    top: 47.29%;
+    left: 52%;
+}
+.products-card-six{
+    position: absolute;
+    top: 49%;
+    left: 77%;
+}
+.products-card-seven{
+    position: absolute;
+    top: 66%;
+    left: 27%;
+}
+.products-card-eight{
+    position: absolute;
+    top: 64.29%;
+    left: 52%;
+}
+.products-card-nine{
+    position: absolute;
+    top: 66%;
+    left: 77%;
 }

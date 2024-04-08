@@ -5,7 +5,7 @@ export function Collection() {
     return (
         <section>
             <div className="container">
-                <h2 className="collection-title">КОЛЛЕКЦИЯ</h2>
+                <h2 className="collection-title">ОБУВЬ</h2>
                 <div className="flex gap-8 ml-28">
                     <div>
                         <img  src={collectionOne} alt=""/>
